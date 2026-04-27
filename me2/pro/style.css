@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: #fff;
+}
+
+/* HERO */
+#hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: black;
+}
+
+#hero h1 {
+    font-size: 42px;
+}
+
+#hero span {
+    color: #ff4da6;
+}
+
+#hero p {
+    margin: 10px 0;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #1a1a1a;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff4da6;
+}
+
+/* SECTION */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #ff4da6;
+}
+
+/* GALLERY */
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.post {
+    position: relative;
+    width: 260px;
+}
+
+.post img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* LOCKED */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BUTTON */
+.btn {
+    padding: 10px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    background: #ff4da6;
+    color: white;
+    cursor: pointer;
+}
+
+.whatsapp { background: green; }
+.facebook { background: blue; }
+.telegram { background: #0088cc; }
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 30px;
+    }
+
+    .post {
+        width: 90%;
+    }
+}
+footer{
+    color: pink;
+}

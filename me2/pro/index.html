@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<section id="hero">
+    <h1>Welcome To<br><span>Got Throat</span></h1>
+    <p>Exclusive Creator Content Platform</p>
+    <button class="btn" onclick="scrollToGallery()">View Content</button>
+</section>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#payment">Payment</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About</h2>
+    <p>Subscribe to unlock exclusive premium content and interact directly.</p>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+    <h2>Gallery</h2>
+    <p>Preview locked content below</p>
+
+    <div class="gallery">
+        <div class="post">
+            <img src="" alt=""width="200px" height="100px">
+            <div class="overlay">
+                <p>Locked 🔒</p>
+                <button onclick="unlockContent()">Unlock $1,000</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PAYMENT -->
+<section id="payment">
+    <h2>Payment Methods</h2>
+    <ul>
+        <li>💳 Cards</li>
+        <li>💰 Bank Transfer</li>
+        <li>🌍 PayPal</li>
+    </ul>
+
+    <button class="btn" onclick="payNow()">Proceed to Payment</button>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+
+    <button class="btn whatsapp" onclick="openWhatsApp()">WhatsApp</button>
+    <button class="btn facebook" onclick="openFacebook()">Facebook</button>
+    <button class="btn telegram" onclick="openTelegram()">Telegram</button>
+
+    <p id="message"></p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Creator Hub</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
